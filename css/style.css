@@ -356,8 +356,13 @@ footer .fa{
 
 /* media querry */
 
-/* @media and screen only (max-width:770px){
-  .pranayam .right{
-    display: none;
+@media screen and (max-width:768px) {
+  .join-now{
+    background-image: none;
   }
-} */
+  .gallery-section{
+    .box{
+      margin: 15px;
+    }
+  }
+}

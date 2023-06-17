@@ -1,0 +1,363 @@
+.align-item-center {
+  align-items: center;
+}
+
+.buttoncommon {
+  color: #484e5a;
+  background-color: #f0c9c3;
+  transition: all .3s;
+  border: 1px solid #f0c9c3;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buttoncommon:hover {
+  color: #f0c9c3;
+  background-color: transparent;
+  border: 1px solid #f0c9c3;
+  background: #fff;
+  transition: all .3s;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* navigation section */
+.my-nav {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  box-shadow: rgb(191, 191, 191) 4px 5px 22px;
+}
+
+.my-nav .logo {
+  width: 30%;
+  text-align: center;
+}
+
+.my-nav .logo img {
+  width: 25%;
+  /* margin-left: 125px; */
+}
+
+.my-nav .align-right {
+  justify-content: space-around;
+}
+
+.my-nav .align-right .font {
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+/* banner section */
+.banner {
+  padding: 100px 0;
+}
+
+.banner .b-img {
+  width: 100%;
+  /* margin-top: 20%; */
+}
+
+.banner .LeftTopImage img {
+  position: absolute;
+  top: 0;
+  left: -240px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  color: #484e5a;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 30px 0;
+}
+
+/* about section */
+
+.about-section {
+  background-image: url(../img/2.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 0;
+}
+
+.about-section h1 {
+  font-size: 44px;
+  color: #484e5a;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.about-section p {
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 30px 0;
+}
+
+
+
+
+/* three section */
+
+.three-section {
+  padding: 70px 0;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.three-section img {
+  width: 35%;
+  height: 120px;
+  padding: 10px 0;
+}
+
+.three-section h4 {
+  color: #484e5a;
+  line-height: 25px;
+  font-weight: 600;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.three-section p {
+  font-size: 15px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+/* pranayam section */
+.pranayam{
+  position: relative;
+  overflow: hidden;
+}
+.LeftTopImage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  z-index: -1;
+}
+.pranayam .p-img{
+  width: 100%;
+}
+.PranayamLeftTopImage img:last-child{
+  position: absolute;
+  top: 80%;
+  left: 0;
+}
+
+.pranayam h1 {
+  font-size: 44px;
+  color: #484e5a;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.pranayam p {
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 30px 0;
+}
+.img-section{
+  position: relative;
+}
+.FreamImage{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.FreamImage .Left-fream{
+  position: absolute;
+  height: 100%;
+  width: 300px;
+}
+.FreamImage .Left-fream img:first-child{
+  position: absolute;
+  top: -55px;
+  left: -65px;
+  z-index: -1;
+}
+ .Left-fream img:last-child{
+  position: absolute;
+  left: -65px;
+  bottom: -490px;
+}
+.right{
+  position: relative;
+  right: -35%;
+}
+.right img:first-child{
+  position: absolute;
+    top: -75px;
+    right: 0px;
+    z-index: -1;
+}
+.right img:last-child{
+  position: absolute;
+    width: 30%;
+    bottom: -490px;
+    right: 45px;
+    z-index: -1;
+}
+
+
+/* join now section */
+.join-now{
+  background-color: #f3f1ef;
+  padding: 100px 0;
+  margin: 100px 0;
+  background-image: url(../img/4\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+}
+.join-now h1{
+  font-size: 44px;
+  color: #484e5a;
+  line-height: 60px;
+  font-weight: 500;
+}
+.join-now p{
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 30px 0;
+}
+
+/* gallery section */
+.gallery-section{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.gallery-section img{
+  width: 100% !important;
+}
+.gallery-section h1{
+  font-size: 44px;
+  color: #484e5a;
+  line-height: 60px;
+  font-weight: 500;
+}
+.gallery-section p{
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 30px 0;
+}
+.gallery-section h4{
+  color: #484e5a;
+  line-height: 25px;
+  font-weight: 600;
+  font-size: 25px;
+  padding-top: 15px;
+}
+.gallery-section .box:hover{
+  box-shadow: 1px 2px 5px -2px;
+  transition: all .3s;
+}
+.gallery-section .box{
+  transition: all .3s;
+  padding: 0;
+  width: 100%;
+}
+.gallery-section .box p{
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 0;
+}
+.space-a{
+  justify-content: space-around;
+}
+
+
+/* yoga training section */
+
+
+.yoga-training{
+  background-color: #f0c9c3;
+  padding: 50px 0;
+}
+.yoga-training .yoga-img img{
+  width: 100%;
+}
+.yoga-training h1{
+  font-size: 44px;
+  color: #484e5a;
+  line-height: 60px;
+  font-weight: 500;
+}
+.yoga-training p{
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 30px 0;
+}
+.yoga-training i{
+  font-size: 40px;
+  padding: 0 10px;
+}
+
+/* get in tuch section */
+
+.get-in-tuch{
+  padding: 30px 0;
+}
+.get-in-tuch h1{
+  font-size: 44px;
+  color: #484e5a;
+  line-height: 60px;
+  font-weight: 500;
+}
+.get-in-tuch p{
+  font-size: 20px;
+  color: #656b78;
+  line-height: 25px;
+  padding: 30px 0;
+}
+.get-in-tuch .my-form{
+  margin: 1rem 0;
+}
+.get-in-tuch .form-btn{
+  font-size: 15px;
+}
+
+/* footer section */
+
+footer{
+  padding: 30px 0;
+  background-color: #484e5a;
+  color: #fff;
+}
+footer .fa{
+  font-size: 35px;
+  padding: 0 10px;
+}
+
+
+/* media querry */
+
+/* @media and screen only (max-width:770px){
+  .pranayam .right{
+    display: none;
+  }
+} */
